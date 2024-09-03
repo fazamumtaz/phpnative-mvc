@@ -3,6 +3,12 @@
         <div class="col-6">
             <h3>Daftar Mahasiswa</h3>
 
+            <div class="row">
+                <div class="col-6">
+                    <?php Flasher::flash(); ?>
+                </div>
+            </div>
+
              <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#formModal">Tambah data Mahasiswa</button>
 
